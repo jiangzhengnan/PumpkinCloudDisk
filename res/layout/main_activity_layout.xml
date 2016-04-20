@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/write"
+    android:orientation="vertical" >
+
+    <FrameLayout 
+        android:id="@+id/ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/mainbackground"
+        android:orientation="horizontal"
+        > 
+			    <LinearLayout
+			        android:id="@+id/mian_top_gaibainqian"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:orientation="horizontal"
+			        android:visibility="visible"
+			          >
+			        <ImageView
+			            android:layout_width="0dp"
+			            android:layout_height="fill_parent"
+			            android:layout_margin="5dp"
+			            android:layout_weight="1"
+			            android:src="@drawable/pumpkin" />
+			
+			        <TextView
+			            android:id="@+id/yonghuming"
+			            android:layout_width="0dp"
+			            android:layout_height="fill_parent"
+			            android:layout_margin="5dp"
+			            android:layout_weight="4"
+			            android:gravity="center_vertical"
+			            android:text="您好！"
+			            android:textColor="@color/write" />
+			    </LinearLayout>
+			    
+			      <LinearLayout
+			        android:id="@+id/mian_top_gaibainhou"
+			        android:layout_width="fill_parent"
+			        android:layout_height="fill_parent"
+			        android:orientation="horizontal"
+			        android:background="@color/baidulan"
+			        android:visibility="invisible" >
+
+			       <ImageButton
+			           android:id="@+id/main_top_leftreturn"
+			           android:background="@drawable/pig"
+			           android:layout_width="50dp"
+			           android:layout_margin="10dp"
+			           android:layout_height="50dp" />
+
+			       <TextView
+			           android:id="@+id/main_top_filename"
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:layout_gravity="center"
+			           android:paddingLeft="30dp"
+			           android:layout_margin="10dp"
+			           android:textColor="@color/black"
+			           android:text="显示文件名" />
+ 
+			    </LinearLayout>
+    
+    </FrameLayout>
+
+ 
+    <View
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/write" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/zhongjian"
+        android:layout_width="fill_parent"
+                android:layout_height="0dp"
+        android:layout_weight="6"
+  
+         >
+
+         
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_viewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zhongjian"
+            android:background="@color/write" >
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line22"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#8E8E8E"
+        android:layout_below="@id/zhongjian" />
+
+    <LinearLayout
+        android:id="@+id/llbuttom"
+        android:layout_width="fill_parent"
+         android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginTop="5dp"
+ 		 
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/tab_main_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivMain1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/clouddisk" />
+
+            <TextView
+                android:id="@+id/tvMain1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="云盘相册"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_main_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivMain2"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cunchu" />
+
+            <TextView
+                android:id="@+id/tvMain2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="本地相册"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_main_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivMain3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/trans" />
+
+            <TextView
+                android:id="@+id/tvMain3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="传输列表"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_main_4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivMain4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/user" />
+
+            <TextView
+                android:id="@+id/tvMain4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="个人中心"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

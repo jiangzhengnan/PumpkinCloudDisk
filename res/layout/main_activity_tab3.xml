@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/write"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/trans_downloadbtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/baidulan"
+            android:text="下载列表"
+            android:textColor="@color/write"
+            android:textSize="17sp" />
+  	   <Button
+            android:id="@+id/trans_clean"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/write"
+            android:background="@color/baidulan"
+            android:text="清空列表"
+            android:textSize="17sp" />
+        <Button
+            android:id="@+id/trans_uploadbtn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/write"
+            android:background="@color/baidulan"
+            android:text="上传列表"
+            android:textSize="17sp" />
+            
+    </LinearLayout>
+
+       <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#8E8E8E"
+          />
+    <ListView
+        android:id="@+id/trans_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" >
+    </ListView>
+
+</LinearLayout>

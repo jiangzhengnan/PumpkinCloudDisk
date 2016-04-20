@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/write" >
+      
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/initial_background"
+             />
+        <!--   <Button
+            android:id="@+id/initial_kuaisuland"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="一键快速登录按钮" 
+            android:layout_gravity="right"
+            android:background="@color/baidulan"
+            android:textSize="17sp"
+            android:textColor="@color/write"/> -->
+          
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	         android:layout_gravity="bottom"
+	        android:layout_marginBottom="10dp" >
+
+        <Button
+            android:id="@+id/initial_register"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/register" 
+            android:background="@color/baidulan"
+            android:textSize="17sp"
+            android:textColor="@color/write"/>
+
+        <Button
+            android:id="@+id/initial_land"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/baidulan"
+            android:textSize="17sp"
+            android:textColor="@color/write"
+            android:text="@string/land" />
+    </LinearLayout>
+          
+        
+    </FrameLayout>
+ 
+
+     
+</LinearLayout>

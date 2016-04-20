@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/write" >
+    <LinearLayout
+            android:id="@+id/frag2_mian_caozuolana"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@color/lllgray" >
+
+            <ImageButton
+                android:id="@+id/frag2_sort"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/lllgray"
+                android:scaleType="centerInside"
+                android:src="@drawable/sort" />
+
+            <ImageButton
+                android:id="@+id/frag2_newfolder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/lllgray"
+                android:scaleType="centerInside"
+                android:src="@drawable/newfolder" />
+
+            <ImageButton
+                android:id="@+id/frag2_cloud_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/lllgray"
+                android:scaleType="centerInside"
+                android:src="@drawable/cloud_upload" />
+            
+            <ImageView
+                android:id="@+id/frag2_refresh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/lllgray"
+                android:scaleType="centerInside"
+                android:src="@drawable/refresh" />
+        </LinearLayout>
+        <ListView 
+        android:id="@+id/main_lv2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+    </ListView> 
+</LinearLayout>

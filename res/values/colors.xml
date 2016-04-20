@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgColor">#FFEB6106</color>
+    <color name="bottomColor">#FFB22222</color>
+    <color name="llgray">#FFC2C2C2</color>
+    <color name="lllgray">#FFEAEAEA</color>
+    <color name="bgShop">#FFFF67B9</color>
+    <color name="none">#0000</color>
+    <color name="write">#FFFF</color>
+    <color name="black">#F000</color>
+    <color name="sortColor">#FF00B1F1</color>
+    <color name="mainBoardHover">#FFEF4848</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="yellowgreen">#FFADFF2F</color>
+    <color name="deliverorange">#FFF79546</color>
+    <color name="serviceblue">#FF54B6D5</color>
+     
+    <color name="itemblue">#FF3DFFEC</color>
+    <color name="touming">#003DFFEC</color>
+    <color name="baidulan">#1A94E6</color>
+     
+     <color name="landbackground">#E5E5E5</color>
+</resources>
